@@ -1,0 +1,16 @@
+[4mRunning "complexity:generic" (complexity) task[24m
+ 
+[32m✓[39m js/collections/ToDoCollection.js  [32m██████ 135.10[39m
+[32m✓[39m js/models/ToDoModel.js            [32m███████ 142.51[39m
+[32m✓[39m js/views/PageView.js              [32m███████ 152.41[39m
+[32m✓[39m js/views/ToDoCollectionView.js    [32m██████ 124.77[39m
+[33m✗ js/views/ToDoCollectionView.js:36 - <anonymous> is too complicated
+    Cyclomatic: 1
+    Halstead: 8.454545454545455
+      | Effort: 2580.7
+      | Volume: 305.25
+      | Vocabulary: 34[39m
+[32m✓[39m js/views/ToDoView.js              [32m███████ 140.06[39m
+[33mWarning: Task "complexity:generic" failed. Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m

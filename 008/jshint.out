@@ -1,0 +1,88 @@
+[4mRunning "jshint:uses_defaults" (jshint) task[24m
+Linting js/collections/ToDoCollection.js...[31mERROR[39m
+[31m[[39m[33mL1[39m[31m:[39m[33mC22[39m[31m][39m [33m'Backbone' is not defined.[39m
+var ToDoCollection = [31m[7mB[27m[39mackbone.Collection.extend({
+[31m[[39m[33mL2[39m[31m:[39m[33mC12[39m[31m][39m [33m'ToDoModel' is not defined.[39m
+    model: [31m[7mT[27m[39moDoModel,
+[31m[[39m[33mL1[39m[31m:[39m[33mC19[39m[31m][39m [33m'ToDoCollection' is defined but never used.[39m
+var ToDoCollection[31m[7m [27m[39m= Backbone.Collection.extend({
+
+Linting js/models/ToDoModel.js...[31mERROR[39m
+[31m[[39m[33mL1[39m[31m:[39m[33mC17[39m[31m][39m [33m'Backbone' is not defined.[39m
+var ToDoModel = [31m[7mB[27m[39mackbone.Model.extend({url: '/tasks'});
+[31m[[39m[33mL1[39m[31m:[39m[33mC14[39m[31m][39m [33m'ToDoModel' is defined but never used.[39m
+var ToDoModel[31m[7m [27m[39m= Backbone.Model.extend({url: '/tasks'});
+
+Linting js/views/PageView.js...[31mERROR[39m
+[31m[[39m[33mL11[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39moDoCollectionView.trigger('add:random');
+[31m[[39m[33mL14[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39moDoCollectionView.trigger('remove:all');
+[31m[[39m[33mL17[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39mhis.$el.html(this.template());
+[31m[[39m[33mL1[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+var PageView = [31m[7mB[27m[39mackbone.View.extend({
+[31m[[39m[33mL2[39m[31m:[39m[33mC15[39m[31m][39m [33m'_' is not defined.[39m
+    template: [31m[7m_[27m[39m.template(
+[31m[[39m[33mL11[39m[31m:[39m[33mC9[39m[31m][39m [33m'toDoCollectionView' is not defined.[39m
+        [31m[7mt[27m[39moDoCollectionView.trigger('add:random');
+[31m[[39m[33mL14[39m[31m:[39m[33mC9[39m[31m][39m [33m'toDoCollectionView' is not defined.[39m
+        [31m[7mt[27m[39moDoCollectionView.trigger('remove:all');
+[31m[[39m[33mL19[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+        return [31m[7mB[27m[39mackbone.View.prototype.render.apply(this, arguments);
+[31m[[39m[33mL1[39m[31m:[39m[33mC13[39m[31m][39m [33m'PageView' is defined but never used.[39m
+var PageView[31m[7m [27m[39m= Backbone.View.extend({
+
+Linting js/views/ToDoCollectionView.js...[31mERROR[39m
+[31m[[39m[33mL3[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7md[27m[39mocument.getElementById('container').innerHTML = '';
+[31m[[39m[33mL27[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mv[27m[39mar self = this;
+[31m[[39m[33mL49[39m[31m:[39m[33mC80[39m[31m][39m [33mMissing semicolon.[39m
+                document.body.scrollTop = document.documentElement.scrollHeight[31m[7m [27m[39m
+[31m[[39m[33mL1[39m[31m:[39m[33mC26[39m[31m][39m [33m'Backbone' is not defined.[39m
+var ToDoCollectionView = [31m[7mB[27m[39mackbone.View.extend({
+[31m[[39m[33mL3[39m[31m:[39m[33mC9[39m[31m][39m [33m'document' is not defined.[39m
+        [31m[7md[27m[39mocument.getElementById('container').innerHTML = '';
+[31m[[39m[33mL7[39m[31m:[39m[33mC9[39m[31m][39m [33m'pageView' is not defined.[39m
+        [31m[7mp[27m[39mageView.$el.find('#container').append(
+[31m[[39m[33mL12[39m[31m:[39m[33mC13[39m[31m][39m [33m'pageView' is not defined.[39m
+            [31m[7mp[27m[39mageView.$el.find('#container').append(
+[31m[[39m[33mL13[39m[31m:[39m[33mC22[39m[31m][39m [33m'ToDoView' is not defined.[39m
+                (new [31m[7mT[27m[39moDoView({model: todo,parent:self})).render().el
+[31m[[39m[33mL17[39m[31m:[39m[33mC9[39m[31m][39m [33m'pageView' is not defined.[39m
+        [31m[7mp[27m[39mageView.$el.find('#controls').html(
+[31m[[39m[33mL24[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+        return [31m[7mB[27m[39mackbone.View.prototype.render.apply(this, arguments);
+[31m[[39m[33mL30[39m[31m:[39m[33mC17[39m[31m][39m [33m'ToDoView' is not defined.[39m
+            new [31m[7mT[27m[39moDoView({
+[31m[[39m[33mL49[39m[31m:[39m[33mC17[39m[31m][39m [33m'document' is not defined.[39m
+                [31m[7md[27m[39mocument.body.scrollTop = document.documentElement.scrollHeight
+[31m[[39m[33mL49[39m[31m:[39m[33mC43[39m[31m][39m [33m'document' is not defined.[39m
+                document.body.scrollTop = [31m[7md[27m[39mocument.documentElement.scrollHeight
+[31m[[39m[33mL53[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+        return [31m[7mB[27m[39mackbone.View.prototype.initialize.apply(this, arguments);
+[31m[[39m[33mL1[39m[31m:[39m[33mC23[39m[31m][39m [33m'ToDoCollectionView' is defined but never used.[39m
+var ToDoCollectionView[31m[7m [27m[39m= Backbone.View.extend({
+
+Linting js/views/ToDoView.js...[31mERROR[39m
+[31m[[39m[33mL13[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39mhis.model.on('change',  this.render, this);
+[31m[[39m[33mL23[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39mhis.remove();
+[31m[[39m[33mL26[39m[31m:[39m[33mC9[39m[31m][39m [33mMissing "use strict" statement.[39m
+        [31m[7mt[27m[39mhis.$el.html(
+[31m[[39m[33mL1[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+var ToDoView = [31m[7mB[27m[39mackbone.View.extend({
+[31m[[39m[33mL4[39m[31m:[39m[33mC15[39m[31m][39m [33m'_' is not defined.[39m
+    template: [31m[7m_[27m[39m.template(
+[31m[[39m[33mL17[39m[31m:[39m[33mC9[39m[31m][39m [33m'Backbone' is not defined.[39m
+        [31m[7mB[27m[39mackbone.View.prototype.initialize.apply(this, arguments);
+[31m[[39m[33mL32[39m[31m:[39m[33mC16[39m[31m][39m [33m'Backbone' is not defined.[39m
+        return [31m[7mB[27m[39mackbone.View.prototype.render.apply(this, arguments);
+[31m[[39m[33mL1[39m[31m:[39m[33mC13[39m[31m][39m [33m'ToDoView' is defined but never used.[39m
+var ToDoView[31m[7m [27m[39m= Backbone.View.extend({
+
+[33mWarning: Task "jshint:uses_defaults" failed. Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m

@@ -1,0 +1,155 @@
+commit 357a9630b296093722a2d90c8dfa0db624aa9348
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sun Mar 24 13:50:30 2013 -0700
+
+    Finale.
+
+commit 56e416f907b0ba41527328db262e88c1385754be
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sun Mar 24 13:47:06 2013 -0700
+
+    created a deployment script.
+
+commit f6a78d51a1429d97f374dbdf1b1c504376f715f3
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sun Mar 24 10:39:47 2013 -0700
+
+    created sample tests, and a basic coverage report.
+
+commit 61a3ab4c549d6f2e142b7b118d923f3cda769685
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sun Mar 24 09:21:13 2013 -0700
+
+    render performance improvements.
+
+commit 4d5967aef6dc2fb6ebb5be150c7ffd674aada8ce
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 23 22:13:52 2013 -0700
+
+    implemented event delegation
+
+commit eeb217ee0427b79669edea7d529a35820ead15b5
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 23 19:21:51 2013 -0700
+
+    Added a mediator to act as an event switchboard.
+
+commit f1ff6a610e99f2a984ca72d027edbcc72deb4636
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 23 16:57:14 2013 -0700
+
+    PubSubHub, localization and code organization
+
+commit 70e5b10f32c3384a7bc3b6b152dd4e251b351cac
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Fri Mar 22 00:06:32 2013 -0700
+
+    memory leak fixes and refactoring.
+
+commit cdda36eac8500acb60216c3bf5dc5db34d8de18a
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Fri Mar 22 00:01:00 2013 -0700
+
+    memory leak fixes and refactoring.
+
+commit e47a953a6e0ecac9a8b94764d244781a2d71a5d9
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Thu Mar 21 08:12:40 2013 -0700
+
+    diagnostics and profiling.
+
+commit 4620971390256e55229120cfc1285e3ec20b9625
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Wed Mar 20 09:36:54 2013 -0700
+
+    refactoring and code re-organization.
+
+commit f2a679cdcbda00c8ad43054a8e421bd2529f781b
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Wed Mar 20 09:35:57 2013 -0700
+
+    refactoring and code re-organization.
+
+commit 884cd23e63135e1192297dd914c1b4c957d86794
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Tue Mar 19 23:09:15 2013 -0700
+
+    extracted static html.
+
+commit 12ebab4253a0f70c3e02870b0e12502d1f18fd27
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Tue Mar 19 09:52:27 2013 -0700
+
+    intermediate commit.
+
+commit 749ad8e3feb7f86033cffdc5c4151a8ecac4c8f8
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Tue Mar 19 08:23:29 2013 -0700
+
+    prepared a basic unit test setup.
+
+commit edb574ec57cefd6a11e4fc5535ddef109f27194c
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 20:06:51 2013 -0700
+
+    working on presentation server.
+
+commit 84c769ff5870ae00bd8db5216909fd0a4b7b12eb
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 20:01:01 2013 -0700
+
+    working on presentation server.
+
+commit d90304e5c0fe46e5976064007a484b29bb51bdcd
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 19:51:05 2013 -0700
+
+    added changelog.
+
+commit e6f7bbd0d2a63b3f2e9cbbc8113c352b58912d7a
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 19:50:29 2013 -0700
+
+    added change log
+
+commit 9063e908825bcd33600de626170cf948136cb3cf
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 15:18:37 2013 -0700
+
+    jshint fixes.
+
+commit 504db4d7084f584317277cafcdfaa7544e61840d
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 14:00:22 2013 -0700
+
+    initial AMDification
+
+commit 8dec8536742f1cabf516e1b964609802f6e7fad2
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Mon Mar 18 14:00:06 2013 -0700
+
+    initial AMDification
+
+commit 8e0889ce8fb1db9231db21129d29be6f4b700e4c
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sun Mar 17 00:47:45 2013 -0700
+
+    Configured grunt and ran jshint and complexity analyses.
+
+commit 9c7d06cf8df97ec56fe149b4cb6468173d559363
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 16 23:52:57 2013 -0700
+
+    Project folder organization.
+
+commit cd8751d976acbd42604ddfd154396188f4fd2524
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 16 23:51:05 2013 -0700
+
+    Project folder organization.
+
+commit 6165251c4b9e8f232cf83b8cd350cbd65eed45d5
+Author: Volkan Ozcelik <volkan.ozcelik@jivesoftware.com>
+Date:   Sat Mar 16 22:44:44 2013 -0700
+
+    Initial commit.
